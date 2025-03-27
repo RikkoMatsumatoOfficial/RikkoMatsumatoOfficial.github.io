@@ -1,13 +1,23 @@
-.button {
-    border: none;
-    padding: 15px 32px;
+.div-1 button{
+     border-radius: 3px;
+    color:rgb(135, 54, 54);
+    font-style: italic;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    position: relative;
+    padding:5px;
+    top:100px;
+}
+
+.div-2 button{
+    border-radius: 10px;
+    color:rgba(0, 0, 0, 0.555);
+    text-align: center;
+    position: relative;
   }
-  
-  .button1 {background-color: #9bffda;}
-  .button2 {background-color: #000000;} 
+
+
+}
+
+#div1 {
+    font-style: bold;
+}
