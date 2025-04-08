@@ -3,17 +3,54 @@
         <link rel="stylesheet" type="text/css" href="mystyle.css">
     </head>
     <body>
+        <script type="text/javascript">
+            function myFunction() 
+            {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+                element.classList.toggle("button");
+            }
+         </script>
         <title>My Website(RikkoMatsumato)</title>
         <h1 style="background-color: rgb(10, 255, 83);">Hello World From My Website!!!</h1>
         <button type="button" onclick="location.href='https://github.com/RikkoMatsumatoOfficial';">My Github Account!</button>
         <div id="parent">
             <style>
-                #parent {
-                width: 30%;
-                margin: 0 auto;
+                #parent 
+                {
+                    width: 25%;
+                    margin: 0 auto;
                 }
+                body 
+                {
+                    padding: 25px;
+                    background-color: white;
+                    color: black;
+                    font-size: 25px;
+                }
+                .dark-mode 
+                {
+                    background-color: black;
+                     color: white;
+                }
+                .button 
+                {
+                    border: none;
+                    color: rgb(0, 91, 144);
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                }
+                .button1 {background-color: #0c7c53;}
+                .button2 {background-color: #000000;} 
             </style>
         </div>
         <script src="https://liberapay.com/RikkoMatsumatoOfficial/widgets/button.js"></script>
+        <script src="darkmode.js"></script> //Is not Work!!! IDK WHY!!!
+        <button onclick="myFunction()"> Toggle color scheme </button>
     </body>
 </html>
